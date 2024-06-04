@@ -1,0 +1,49 @@
+{
+  "runtimes": {
+    "linux-arm": {
+      "Microsoft.NETCore.Runtime.CoreCLR": {
+        "runtime.linux-arm.Microsoft.NETCore.Runtime.CoreCLR": "2.0.8"
+      }
+    },
+    "linux-x64": {
+      "Microsoft.NETCore.Runtime.CoreCLR": {
+        "runtime.linux-x64.Microsoft.NETCore.Runtime.CoreCLR": "2.0.8"
+      }
+    },
+    "osx-x64": {
+      "Microsoft.NETCore.Runtime.CoreCLR": {
+        "runtime.osx-x64.Microsoft.NETCore.Runtime.CoreCLR": "2.0.8"
+      }
+    },
+    "rhel.6-x64": {
+      "Microsoft.NETCore.Runtime.CoreCLR": {
+        "runtime.rhel.6-x64.Microsoft.NETCore.Runtime.CoreCLR": "2.0.8"
+      }
+    },
+    "tizen.4.0.0-armel": {
+      "Microsoft.NETCore.Runtime.CoreCLR": {
+        "runtime.tizen.4.0.0-armel.Microsoft.NETCore.Runtime.CoreCLR": "2.0.8"
+      }
+    },
+    "win-arm": {
+      "Microsoft.NETCore.Runtime.CoreCLR": {
+        "runtime.win-arm.Microsoft.NETCore.Runtime.CoreCLR": "2.0.8"
+      }
+    },
+    "win-arm64": {
+      "Microsoft.NETCore.Runtime.CoreCLR": {
+        "runtime.win-arm64.Microsoft.NETCore.Runtime.CoreCLR": "2.0.8"
+      }
+    },
+    "win-x64": {
+      "Microsoft.NETCore.Runtime.CoreCLR": {
+        "runtime.win-x64.Microsoft.NETCore.Runtime.CoreCLR": "2.0.8"
+      }
+    },
+    "win-x86": {
+      "Microsoft.NETCore.Runtime.CoreCLR": {
+        "runtime.win-x86.Microsoft.NETCore.Runtime.CoreCLR": "2.0.8"
+      }
+    }
+  }
+}
