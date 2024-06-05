@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/berdan/Documents/Teus/JwtDemo/BackEnd/JwtTest.csproj": {}
+    "/home/berdan/Documents/Teus/JwtDemo/Backend/JwtTest.csproj": {}
   },
   "projects": {
-    "/home/berdan/Documents/Teus/JwtDemo/BackEnd/JwtTest.csproj": {
+    "/home/berdan/Documents/Teus/JwtDemo/Backend/JwtTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/berdan/Documents/Teus/JwtDemo/BackEnd/JwtTest.csproj",
+        "projectUniqueName": "/home/berdan/Documents/Teus/JwtDemo/Backend/JwtTest.csproj",
         "projectName": "JwtTest",
-        "projectPath": "/home/berdan/Documents/Teus/JwtDemo/BackEnd/JwtTest.csproj",
+        "projectPath": "/home/berdan/Documents/Teus/JwtDemo/Backend/JwtTest.csproj",
         "packagesPath": "/home/berdan/.nuget/packages/",
-        "outputPath": "/home/berdan/Documents/Teus/JwtDemo/BackEnd/obj/",
+        "outputPath": "/home/berdan/Documents/Teus/JwtDemo/Backend/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/berdan/.nuget/NuGet/NuGet.Config"
@@ -42,9 +42,33 @@
               "target": "Package",
               "version": "[8.0.6, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
             "Microsoft.Extensions.Configuration.Json": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "NRedisStack": {
+              "target": "Package",
+              "version": "[0.12.0, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.7.33, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

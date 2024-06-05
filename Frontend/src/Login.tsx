@@ -18,7 +18,7 @@ const Login = ():JSX.Element => {
   if(slice.loginUser)
     return(
       <div>
-        <div>You Are Logged in as {slice.loginUser.username}!</div>
+        <div>You Are Logged in as {slice.loginUser.username}/{slice.loginUser.name}!</div>
         <button
           onClick={()=>{
             dispatch(Slice.actions.setLoginUser(undefined));
@@ -63,7 +63,6 @@ const Login = ():JSX.Element => {
             } as LoginRequest)
               .unwrap()
               .then((res)=>{
-                console.log("res", res);
                 setLoginFailed(false);
                 dispatch(Slice.actions.setLoginUser(res as (LoginResponse & void)));
               })
